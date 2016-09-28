@@ -14,6 +14,7 @@
 		287E5CEF1D9C1224007C0035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287E5CED1D9C1224007C0035 /* LaunchScreen.storyboard */; };
 		287E5CFA1D9C1224007C0035 /* MyMeetupsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E5CF91D9C1224007C0035 /* MyMeetupsTests.swift */; };
 		287E5D051D9C1224007C0035 /* MyMeetupsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E5D041D9C1224007C0035 /* MyMeetupsUITests.swift */; };
+		287E5D131D9C1291007C0035 /* MeetupConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 287E5D121D9C1291007C0035 /* MeetupConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		287E5D001D9C1224007C0035 /* MyMeetupsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMeetupsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		287E5D041D9C1224007C0035 /* MyMeetupsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeetupsUITests.swift; sourceTree = "<group>"; };
 		287E5D061D9C1224007C0035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287E5D121D9C1291007C0035 /* MeetupConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MeetupConfig.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				287E5CEB1D9C1224007C0035 /* Assets.xcassets */,
 				287E5CED1D9C1224007C0035 /* LaunchScreen.storyboard */,
 				287E5CF01D9C1224007C0035 /* Info.plist */,
+				287E5D121D9C1291007C0035 /* MeetupConfig.plist */,
 			);
 			path = MyMeetups;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				287E5CEF1D9C1224007C0035 /* LaunchScreen.storyboard in Resources */,
 				287E5CEC1D9C1224007C0035 /* Assets.xcassets in Resources */,
+				287E5D131D9C1291007C0035 /* MeetupConfig.plist in Resources */,
 				287E5CEA1D9C1224007C0035 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
