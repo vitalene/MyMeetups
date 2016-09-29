@@ -15,6 +15,9 @@
 		287E5CFA1D9C1224007C0035 /* MyMeetupsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E5CF91D9C1224007C0035 /* MyMeetupsTests.swift */; };
 		287E5D051D9C1224007C0035 /* MyMeetupsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E5D041D9C1224007C0035 /* MyMeetupsUITests.swift */; };
 		287E5D131D9C1291007C0035 /* MeetupConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 287E5D121D9C1291007C0035 /* MeetupConfig.plist */; };
+		287E5D151D9C3136007C0035 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E5D141D9C3136007C0035 /* City.swift */; };
+		287E5D191D9C3F23007C0035 /* MeetupData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 287E5D171D9C3F23007C0035 /* MeetupData.xcdatamodeld */; };
+		287E5D1B1D9C4282007C0035 /* CityAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E5D1A1D9C4282007C0035 /* CityAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		287E5D041D9C1224007C0035 /* MyMeetupsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeetupsUITests.swift; sourceTree = "<group>"; };
 		287E5D061D9C1224007C0035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		287E5D121D9C1291007C0035 /* MeetupConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MeetupConfig.plist; sourceTree = "<group>"; };
+		287E5D141D9C3136007C0035 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		287E5D181D9C3F23007C0035 /* MeetupData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeetupData.xcdatamodel; sourceTree = "<group>"; };
+		287E5D1A1D9C4282007C0035 /* CityAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		287E5CD81D9C1224007C0035 = {
 			isa = PBXGroup;
 			children = (
+				287E5D171D9C3F23007C0035 /* MeetupData.xcdatamodeld */,
 				287E5CE31D9C1224007C0035 /* MyMeetups */,
 				287E5CF81D9C1224007C0035 /* MyMeetupsTests */,
 				287E5D031D9C1224007C0035 /* MyMeetupsUITests */,
@@ -100,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				287E5CE41D9C1224007C0035 /* AppDelegate.swift */,
+				287E5D1A1D9C4282007C0035 /* CityAPI.swift */,
+				287E5D141D9C3136007C0035 /* City.swift */,
 				287E5CE61D9C1224007C0035 /* ViewController.swift */,
 				287E5CE81D9C1224007C0035 /* Main.storyboard */,
 				287E5CEB1D9C1224007C0035 /* Assets.xcassets */,
@@ -264,7 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				287E5CE71D9C1224007C0035 /* ViewController.swift in Sources */,
+				287E5D191D9C3F23007C0035 /* MeetupData.xcdatamodeld in Sources */,
 				287E5CE51D9C1224007C0035 /* AppDelegate.swift in Sources */,
+				287E5D151D9C3136007C0035 /* City.swift in Sources */,
+				287E5D1B1D9C4282007C0035 /* CityAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +539,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		287E5D171D9C3F23007C0035 /* MeetupData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				287E5D181D9C3F23007C0035 /* MeetupData.xcdatamodel */,
+			);
+			currentVersion = 287E5D181D9C3F23007C0035 /* MeetupData.xcdatamodel */;
+			path = MeetupData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 287E5CD91D9C1224007C0035 /* Project object */;
 }
